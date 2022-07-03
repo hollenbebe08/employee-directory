@@ -17,7 +17,7 @@ test('creates an Employee id', () => {
     const employee = new Employee();
 
     //the id should be an array
-    expect(employee.id).toEqual(expect.any(Array));
+    expect(employee.id).toEqual(expect.any(Number));
 })
 
 test('creates an Employee email', () => {
@@ -35,3 +35,27 @@ test('creates an employee role', () => {
     expect(employee.role).toEqual(expect.any(Array));
 })
 
+test('gets players name', () => {
+    const employeeName = new Employee();
+
+    expect(employeeName.getName()).toEqual(expect.any(String));
+
+})
+
+test('gets players id', () => {
+    const employeeId = new Employee();
+
+    expect(employeeId.getId()).toEqual(expect.any(Number));
+})
+
+test('gets players email', () => {
+    const employeeEmail = new Employee();
+
+    expect(employeeEmail.getEmail()).toEqual(expect.any(String));
+})
+
+test('gets employees role', () => {
+    const employeeRole = new Employee();
+
+    expect(employeeRole.getRole()).toEqual('Employee');
+})
