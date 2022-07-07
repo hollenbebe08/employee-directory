@@ -4,7 +4,8 @@
   "description": "Employee Directory",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "src": "src"
   },
   "scripts": {
     "test": "jest"

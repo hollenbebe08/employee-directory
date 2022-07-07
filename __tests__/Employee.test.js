@@ -32,7 +32,7 @@ test('creates an employee role', () => {
     const employee = new Employee();
 
     //the role should be an array
-    expect(employee.role).toEqual(expect.any(Array));
+    expect(employee.role).toEqual(expect.any(String));
 })
 
 test('gets employees name', () => {
