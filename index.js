@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generatePage = require('./lib/output-template');
+const generatePage = require('./src/output-template');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
@@ -188,14 +188,6 @@ const promptEmployee = () =>{
 promptManager()
 .then(answerData => {
 manager = new Manager(answerData.name, answerData.email, answerData.id, answerData.office);
-
-
-//     const pageHtml = generatePage(htmlData);
-
-// fs.writeFile('index.html', pageHtml, err => {
-//     if(err) throw new Error(err);
-//     console.log("HTML was created!");
-// });
 })
 .then(promptEmployee)
 .then(()=> {
