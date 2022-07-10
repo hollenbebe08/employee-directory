@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generatePage = require('./src/output-template');
+const generatePage = require('./src/output-template.js');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
@@ -157,7 +157,7 @@ const promptEmployee = () =>{
     {
         type: 'input',
         name: 'school',
-        message: 'Please enter your Employees school username',
+        message: 'Please enter your Employees school name',
         validate: function(schoolInput){
             if(schoolInput){
                 return true;

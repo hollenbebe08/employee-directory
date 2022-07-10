@@ -1,57 +1,71 @@
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Employee Directory Manager</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    </head>
-    <body>
-    <header class="hero is-primary">
-        <div class="hero-body">
-            <p class="title"> Does this change? </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Employee Directory Manager</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header class="header-styling">
+        <div>
+            <p> My Team </p>
         </div>
     </header>
-    <section class='column is-one-fifth'>
-        <div class = 'card'>
-            <header class= 'card-header'>
-                <p class = 'card-header-title is-centered'> Sally</p>
-            </header>
-            <div class = 'card-content'>
-                <div class = 'content'> 
-                    <a href="mailto:email:email">Email</a> 
-
-                    <p> ID: 1</p> 
-
-                    <p> Role: Manager</p> 
-
-                    <p> Office Number: 2</p>
+    <section class="container col-6 flex-column align-content-center ">
+        <article class = "row justify-content-around">
+            <div class = "card" style="width: 15rem;">
+                <header class= "card-header card-styling text-light">
+                    <h2 class = "card-title"> Sally</h2>
+                    <h4 class = "card-subtitle">Manager</h4>
+                </header>
+                <div class = "card-body">
+                    <div class = "card-text"> 
+                        <p> ID: 100100</p> </br>
+                        <p> Office Number: 222-4040</p>
+                        <a href="mailto:email:sally@gmail.com">sally@gmail.com</a> </br>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class='column is-one-fifth'>
-        <div class = 'card'>
-            <header class= 'card-header'>
-                <p class = 'card-header-title is-centered'>
-                
-            </header>
-            <div class = 'card-content'>
-                <div class = 'content'> 
-                
+            
+                <div class = "card" style="width: 15rem;">
+                    <header class= "card-header card-styling text-light">
+                        <h2 class = "card-title">
+                            Robert
+                        </h2>
+                        <h4 class = "card-subtitle"> Engineer</h4>
+                    </header>
+                    <div class = "card-body">
+                        <div class = "card-text"> 
+                            <p> ID: 100200</p> </br>
+                            <p> School: undefined</p> </br>
+                            <p><a href="https://github.com/hollenbebe08">GitHub</a></p> </br>
+                            <a href="mailto:email:bob@gmail.com">bob@gmail.com</a> </br>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section class='column is-one-fifth'>
-        <div class = 'card'>
-            <header class= 'card-header'>
-                <p class = 'card-header-title is-centered'>
                 
-            </header>
-    <section>
+                <div class = "card" style="width: 15rem;">
+                    <header class= "card-header card-styling text-light">
+                        <h2 class = "card-title">
+                            Beatrice
+                        </h2>
+                        <h4 class = "card-subtitle"> Intern</h4>
+                    </header>
+                    <div class = "card-body">
+                        <div class = "card-text"> 
+                            <p> ID: 100300</p> </br>
+                            <p> School: College University</p> </br>
+                            <p><a href="https://github.com/undefined">GitHub</a></p> </br>
+                            <a href="mailto:email:bee@gmail.com">bee@gmail.com</a> </br>
+                        </div>
+                    </div>
+                </div>
+                
+        </article>
     </section>
-    </body>
-    </html>
-    
+</body>
+</html>

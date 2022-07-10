@@ -1,0 +1,17 @@
+
+.header-styling {
+    background-image: linear-gradient(45deg, #d53c3c 0%, #ba4a4a 52%, #d16a6a 90%);
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    padding: 30px;
+}
+
+.card-styling {
+    background-image: linear-gradient(45deg, #5b90d5 0%, #2e3fbd 52%, #3554b1 90%);
+}
+
+.row {
+    padding-top: 30px;
+}
+
